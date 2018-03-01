@@ -1,4 +1,3 @@
-function tags() {
 	var ogTitle = document.createElement('meta');
 	var ogDesc = document.createElement('meta');
 	fetch('https://jsonplaceholder.typicode.com/posts/1')
@@ -16,4 +15,3 @@ function tags() {
 	head.appendChild(ogTitle)
 	head.appendChild(ogDesc)
 	console.log(head);
-}
